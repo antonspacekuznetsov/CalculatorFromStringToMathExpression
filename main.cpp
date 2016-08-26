@@ -11,7 +11,6 @@ int main(int argc, char *argv[])
         {
             try
             {
-                // evaluate the expression
                 char* result;
                 result = prs.parse(argv[1]);
                 printf("%s\n", result);
